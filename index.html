@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Records</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div>
+        <div class="container">
+            <section class="heading-section">
+                <h1>PATIENT RECORDS</h1>
+                <span class="material-icons" id="info">info</span>
+            </section>
+
+            <section class="info-section hide">
+                <p class="info-p">
+                    Record patient location using the form provided selecting the appropriate option(city) and the page shows count of older patients from all locations also providing the percentages of patients from each city
+                </p>
+            </section>
+
+            <section class="form-section">
+                <div class="form">
+                    <select name="cityInput" id="cityInput">
+                        <option value="bangalore">Bangalore</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="hyderabad">Hyderabad</option>
+                        <option value="ahemedabad">Ahemedabad</option>
+                        <option value="pune">Pune</option>
+                        <option value="chennai">Chennai</option>
+                        <option value="kolkata">Kolkata</option>
+                        <option value="lucknow">Lucknow</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <button id="add"><span class="material-icons">add</span></button>
+                </div>
+            </section>
+
+            <section class="data-section">
+                <div class="data">
+                    <ul class="data-ul"></ul>
+                </div>
+    
+                <div class="percent"></div>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

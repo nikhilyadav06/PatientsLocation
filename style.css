@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif;
+	color: white;
+}
+
+body {
+	background-color: black;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+	margin: 5%;
+	font-size: 3em;
+	color: #00ffff;
+	letter-spacing: 0.3em;
+}
+
+#info {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+
+.form-section {
+	text-align: center;
+	margin: 2%;
+}
+
+.data-section {
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.data {
+	width: 25%;
+	padding-right: 2%;
+	border-right: 5px solid #00ffff;
+}
+
+.percent {
+	width: 75%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-left: 12px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	text-align: right;
+	font-size: 1.5em;
+	padding: 0.5em;
+}
+
+.percent-card {
+	width: 29%;
+	display: flex;
+	flex-direction: column;
+	/* height: 7.5em; */
+	padding: 0.5em;
+	margin: 0.5em;
+	margin-bottom: 1.7em;
+	border: 3px solid #00ffff;
+	border-radius: 10px;
+}
+
+.percentage {
+	font-size: 4em;
+	text-align: center;
+	height: 70%;
+}
+
+.city {
+	text-align: center;
+	font-size: 1.3em;
+	height: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+select {
+	width: 40%;
+	font-size: 1.2em;
+	height: 50px;
+	padding-left: 10px;
+	background-color: transparent;
+	border: 3px solid #008080;
+	border-radius: 10px 0 0 10px;
+}
+
+button {
+	padding: 3px;
+	height: 50px;
+	width: 5%;
+	background-color: #008080;
+	border: 3px solid #008080;
+	border-radius: 0 10px 10px 0;
+	cursor: pointer;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+}
+
+.material-icons {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.per-sign {
+	font-size: 0.5em;
+}
+
+option {
+	background-color: black;
+}
+
+.info-p {
+	text-align: center;
+	font-size: 1.9em;
+	line-height: 2em;
+	padding: 2em;
+}
+
+.info-section {
+	border: 3px solid #008080;
+	border-radius: 20px;
+}
+
+.hide {
+	display: none;
+}
